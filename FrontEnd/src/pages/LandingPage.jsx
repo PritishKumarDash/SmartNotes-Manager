@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useTheme } from "../Contexts/ThemeContext";
 import axios from "axios";
 
-const API_BASE = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API_BASE = import.meta.env.VITE_API_URL || "https://smartnotes-manager.onrender.com";
 
 const features = [
   { icon: "📝", title: "Smart Notes", desc: "Create rich notes with colors, folders, and pin support. Organize your thoughts effortlessly." },
