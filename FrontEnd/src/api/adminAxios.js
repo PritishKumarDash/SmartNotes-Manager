@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const ADMIN_API = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:3000",
+  baseURL: import.meta.env.VITE_API_URL || "https://smartnotes-manager.onrender.com",
   withCredentials: true,
 });
 
